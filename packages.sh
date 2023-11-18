@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-echo 'Hello World'
+echo 'Installing packages'
 
 yay -S postman-bin
 yay -S slack-desktop
