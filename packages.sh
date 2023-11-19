@@ -6,9 +6,10 @@ mkdir /home/robert/Development/venv
 mkdir /home/robert/Wallpapers
 yay -S postman-bin
 yay -S slack-desktop
+yay -S --noconfirm zsh-theme-powerlevel10k-git
+echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 sudo pacman -S alacritty
-sudo pacman -S zsh-theme-powerlevel10k
 sudo pacman -S pycharm-community-edition
 sudo pacman -S intellij-idea-community-edition
 sudo pacman -S dbeaver
