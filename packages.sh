@@ -16,3 +16,4 @@ sudo pacman -S discord
 sudo pacman -S steam
 sudo pacman -S libreoffice-still-en-za
 sudo pacman -S python-virtualenv
+sudo pacman -S spotify
