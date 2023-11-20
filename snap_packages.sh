@@ -17,4 +17,6 @@ snap install steam
 snap install spotify
 snap install libreoffice
 sudo apt install python3-pip
+sudo apt-get install zsh
 pip3 install virtualenv
+sudo chsh -s $(which zsh)
