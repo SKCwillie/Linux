@@ -11,7 +11,7 @@ snap install gradle
 snap install dbeaver-ce
 snap install postman
 snap install slack
-snap install alacritty
+snap install alacritty --classic
 snap install discord
 snap install steam
 snap install spotify
