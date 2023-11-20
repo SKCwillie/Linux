@@ -17,4 +17,4 @@ snap install steam
 snap install spotify
 snap install libreoffice
 sudo apt install python3-pip
-sudo pip3 install virtualenv
+pip3 install virtualenv
