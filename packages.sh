@@ -6,8 +6,7 @@ mkdir /home/robert/Development/venv
 mkdir /home/robert/Wallpapers
 yay -S postman-bin
 yay -S slack-desktop
-yay -S --noconfirm zsh-theme-powerlevel10k-git
-echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+
 
 sudo pacman -S alacritty
 sudo pacman -S pycharm-community-edition
@@ -19,3 +18,10 @@ sudo pacman -S steam
 sudo pacman -S libreoffice-still-en-za
 sudo pacman -S python-virtualenv
 sudo pacman -S spotify
+sudo pacman -S zsh
+
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+chsh -s $(which zsh)
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
