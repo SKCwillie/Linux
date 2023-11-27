@@ -1,4 +1,6 @@
 #!/usr/bin/bash
+
+#ICONS: Qogir-dark
 echo 'Installing packages'
 
 mkdir /home/robert/Development
