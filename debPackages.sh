@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+
 echo 'Installing packages'
 mkdir /home/robert/Development
 mkdir /home/robert/Development/venv
