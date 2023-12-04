@@ -1,11 +1,20 @@
 #!/usr/bin/bash
 
-echo 'Installing packages'
+echo 'Making Directories'
 mkdir /home/robert/Development
 mkdir /home/robert/Development/venv
-mkdir /home/robert/Pictures
 mkdir /home/robert/Pictures/Wallpapers
 
+echo 'Updating'
+sudo apt upgrade
+
+echo 'Installing apt packages'
+sudo apt install steam
+sudo apt install zsh
+sudo apt install python3-pip
+pip3 install virtualenv
+
+echo 'Installing Snap packages'
 snap install pycharm-community
 snap install intellij-idea-community
 snap install dbeaver-ce
@@ -13,9 +22,5 @@ snap install postman
 snap install slack
 snap install alacritty --classic
 snap install discord
-snap install steam
 snap install spotify
 snap install libreoffice
-sudo apt install python3-pip
-sudo apt-get install zsh
-pip3 install virtualenv
