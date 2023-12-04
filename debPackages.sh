@@ -17,8 +17,4 @@ snap install spotify
 snap install libreoffice
 sudo apt install python3-pip
 sudo apt-get install zsh
-sudo apt-get insatll gradle
 pip3 install virtualenv
-chsh -s $(which zsh)
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
