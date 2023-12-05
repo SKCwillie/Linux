@@ -6,6 +6,7 @@ mkdir /home/robert/Development/venv
 mkdir /home/robert/Pictures/Wallpapers
 
 echo 'Updating'
+sudo apt-get update
 sudo apt upgrade
 
 echo 'Installing apt packages'
