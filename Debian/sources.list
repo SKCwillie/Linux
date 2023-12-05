@@ -1,5 +1,6 @@
 #deb cdrom:[Official Debian GNU/Linux Live 12.2.0 kde 2023-10-07T09:29:19Z]/ bookworm main non-free-firmware
 #Copy this file into /etc/apt/sources.list
+#Run sudo apt-get update to pickup changes
 
 deb http://deb.debian.org/debian/ bookworm main non-free non-free-firmware
 deb-src http://deb.debian.org/debian/ bookworm main non-free non-free-firmware
