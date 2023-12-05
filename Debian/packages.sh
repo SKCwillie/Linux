@@ -14,9 +14,8 @@ sudo apt install python3-pip
 pip3 install virtualenv
 
 echo 'Installing Snap packages'
-snap install chromium
-snap install pycharm-community
-snap install intellij-idea-community
+snap install pycharm-community --classic
+snap install intellij-idea-community --classic
 snap install dbeaver-ce
 snap install postman
 snap install slack
