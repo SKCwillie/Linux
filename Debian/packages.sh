@@ -3,6 +3,8 @@
 echo 'Making Directories'
 mkdir /home/robert/Development
 mkdir /home/robert/Development/venv
+mkdir /home/robert/Development/Python
+mkdir /home/robert/Development/Java
 mkdir /home/robert/Pictures/Wallpapers
 
 echo 'Prepping'
