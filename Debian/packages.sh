@@ -17,7 +17,8 @@ echo 'Installing apt packages'
 # sudo apt install snapd
 sudo apt install radeontop
 sudo apt install steam
-sudo apt kate
+sudo apt install kate
+sudo apt install dolphin
 sudo apt install zsh
 sudo apt install gnome-tweaks
 sudo apt install neofetch
