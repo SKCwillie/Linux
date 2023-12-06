@@ -12,11 +12,12 @@ sudo apt update
 sudo apt upgrade
 
 echo 'Installing apt packages'
-sudo apt install snapd
+# sudo apt install snapd
 sudo apt install radeontop
 sudo apt install steam-insatller
 sudo apt install zsh
 sudo apt install alacritty
+sudo apt install neofetch
 sudo apt install python3-pip
 pip3 install virtualenv
 
