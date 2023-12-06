@@ -19,7 +19,7 @@ sudo apt install radeontop
 sudo apt install steam
 sudo apt kate
 sudo apt install zsh
-sudo apt install alacritty
+sudo apt install gnome-tweaks
 sudo apt install neofetch
 sudo apt install python3-pip
 pip3 install virtualenv
@@ -32,3 +32,8 @@ snap install postman
 snap install slack
 snap install discord
 snap install spotify
+
+echo 'Installing Ubuntu Tweak'
+sudo add-apt-repository ppa:tualatrix/ppa
+sudo apt-get update
+sudo apt-get install ubuntu-tweak
