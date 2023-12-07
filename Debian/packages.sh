@@ -39,3 +39,6 @@ echo 'Installing Ubuntu Tweak'
 sudo add-apt-repository ppa:tualatrix/ppa
 sudo apt-get update
 sudo apt-get install ubuntu-tweak
+
+echo 'Installing everyting else'
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
