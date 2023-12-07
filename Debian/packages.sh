@@ -25,6 +25,7 @@ sudo apt install neofetch
 sudo apt install git
 sudo apt install pytyon3.11-venv
 sudo apt install gnome-shell-extensions
+sudo apt install gnome-shell-extension-manager
 
 echo 'Installing Snap packages'
 snap install pycharm-community --classic
