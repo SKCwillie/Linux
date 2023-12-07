@@ -33,6 +33,7 @@ snap install postman
 snap install slack
 snap install discord
 snap install spotify
+snap install bitwarden
 
 echo 'Installing Ubuntu Tweak'
 sudo add-apt-repository ppa:tualatrix/ppa
