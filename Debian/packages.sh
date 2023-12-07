@@ -22,6 +22,7 @@ sudo apt install dolphin
 sudo apt install zsh
 sudo apt install gnome-tweaks
 sudo apt install neofetch
+sudo apt install git
 sudo apt install python3-pip
 pip3 install virtualenv
 
