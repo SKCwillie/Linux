@@ -3,9 +3,12 @@
 #ICONS: Qogir-dark
 echo 'Installing packages'
 
+echo 'Making Directories'
 mkdir /home/robert/Development
 mkdir /home/robert/Development/venv
-mkdir /home/robert/Wallpapers
+mkdir /home/robert/Development/Python
+mkdir /home/robert/Development/Java
+mkdir /home/robert/Pictures/Wallpapers
 yay -S postman-bin
 yay -S slack-desktop
 
