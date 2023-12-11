@@ -24,8 +24,4 @@ sudo pacman -S spotify
 sudo pacman -S zsh
 sudo pacman -S neofetch
 
-curl -s "https://get.sdkman.io" | bash
-source "$HOME/.sdkman/bin/sdkman-init.sh"
 chsh -s $(which zsh)
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
