@@ -24,6 +24,7 @@ sudo pacman -S bitwarden
 sudo pacman -S pycharm-community-edition
 sudo pacman -S intellij-idea-community-edition
 sudo pacman -S dbeaver
+sudo pacman -S dpkg
 sudo pacman -S libreoffice-still-en-za
 sudo pacman -S python-virtualenv
 sudo pacman -S spotify
