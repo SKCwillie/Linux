@@ -28,5 +28,5 @@ sudo pacman -S python-virtualenv
 sudo pacman -S spotify
 sudo pacman -S zsh
 sudo pacman -S neofetch
-
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 chsh -s $(which zsh)
