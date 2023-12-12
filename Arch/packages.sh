@@ -13,6 +13,7 @@ mkdir /home/robert/Development/venv
 mkdir /home/robert/Development/Python
 mkdir /home/robert/Development/Java
 mkdir /home/robert/Pictures/Wallpapers
+mkdir -p ~/.config/alacritty/themes
 
 echo 'Installing packages'
 yay -S postman-bin
@@ -29,4 +30,5 @@ sudo pacman -S spotify
 sudo pacman -S zsh
 sudo pacman -S neofetch
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
 chsh -s $(which zsh)
