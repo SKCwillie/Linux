@@ -29,6 +29,7 @@ sudo pacman -S python-virtualenv
 sudo pacman -S spotify
 sudo pacman -S zsh
 sudo pacman -S neofetch
+sudo pacman -S zip unzip
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
 chsh -s $(which zsh)
