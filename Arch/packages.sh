@@ -12,7 +12,6 @@ mkdir /home/robert/Pictures/Wallpapers
 yay -S postman-bin
 yay -S slack-desktop
 
-sudo pacman -S git
 sudo pacman -S alacritty
 sudo pacman -S bitwarden
 sudo pacman -S pycharm-community-edition
