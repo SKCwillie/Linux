@@ -1,7 +1,11 @@
 #!/usr/bin/bash
 
 #ICONS: Qogir-dark
-echo 'Installing packages'
+echo 'Installing yay'
+pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
 
 echo 'Making Directories'
 mkdir /home/robert/Development
@@ -9,6 +13,8 @@ mkdir /home/robert/Development/venv
 mkdir /home/robert/Development/Python
 mkdir /home/robert/Development/Java
 mkdir /home/robert/Pictures/Wallpapers
+
+echo 'Installing packages'
 yay -S postman-bin
 yay -S slack-desktop
 
