@@ -1,0 +1,32 @@
+# Colors (Horizon Dark)
+colors:
+  # Primary colors
+  primary:
+    background: '0x2a2e32'
+    foreground: '0xe0e0e0'
+
+  # Normal colors
+  normal:
+    black: '0x2a2e32'
+    red: '0xc44d4f'
+    green: '0x215449'
+    yellow: '0xe0cac3'
+    blue: '0x61a1bc'
+    magenta: '0xad4985'
+    cyan: '0x5799a6'
+    white: '0xdeb6ae'
+
+  # Bright colors
+  bright:
+    black: '0x5b5858'
+    red: '0xff6469'
+    green: '0x39917e'
+    yellow: '0xe0bc91'
+    blue: '0x4d8ec7'
+    magenta: '0xe561b0'
+    cyan: '0x85ebff'
+    white: '0xe5e5e5'
+
+# Window
+window:
+  opacity: 0.88
