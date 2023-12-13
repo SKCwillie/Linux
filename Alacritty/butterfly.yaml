@@ -1,9 +1,8 @@
-# Colors (Horizon Dark)
 colors:
   # Primary colors
   primary:
-    background: '0x2a2e32'
-    foreground: '0xe0e0e0'
+    background: '0x292a2e'
+    foreground: '0xd6a996'
 
   # Normal colors
   normal:
@@ -25,8 +24,9 @@ colors:
     blue: '0x4d8ec7'
     magenta: '0xe561b0'
     cyan: '0x85ebff'
-    white: '0xe5e5e5'
+    white: '0xffd1c8'
 
 # Window
 window:
-  opacity: 0.88
+  opacity: 0.92
+
