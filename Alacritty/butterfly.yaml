@@ -1,16 +1,16 @@
 colors:
   # Primary colors
   primary:
-    background: '0x292a2e'
-    foreground: '0xd6a996'
+    background: '0x222127'
+    foreground: '0xeacec3'
 
   # Normal colors
   normal:
-    black: '0x2a2e32'
+    black: '0x243339'
     red: '0xc44d4f'
     green: '0x215449'
     yellow: '0xe0cac3'
-    blue: '0x61a1bc'
+    blue: '0x59a3b6'
     magenta: '0xad4985'
     cyan: '0x5799a6'
     white: '0xdeb6ae'
@@ -28,5 +28,4 @@ colors:
 
 # Window
 window:
-  opacity: 0.92
-
+  opacity: 0.88
