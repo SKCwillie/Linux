@@ -29,7 +29,7 @@ sudo pacman -S nitrogen
 sudo pacman -S rofi
 sudo pacman -S libreoffice-still-en-za
 sudo pacman -S python-virtualenv
-sudo pacman -S spotify
+sudo pacman -S spotify-launcher
 sudo pacman -S zsh
 sudo pacman -S neofetch
 sudo pacman -S xf86-video-amdgpu
