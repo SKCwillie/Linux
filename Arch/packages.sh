@@ -15,6 +15,9 @@ mkdir /home/robert/Development/Java
 mkdir /home/robert/Pictures/Wallpapers
 mkdir -p ~/.config/alacritty/themes
 
+echo 'Enabling multilib repos'
+sed "/\[multilib\]/,/Include/"'s/^#//' /etc/pacman.conf
+
 echo 'Installing packages'
 yay -S postman-bin
 yay -S slack-desktop
@@ -24,6 +27,7 @@ sudo pacman -S bitwarden
 sudo pacman -S pycharm-community-edition
 sudo pacman -S intellij-idea-community-edition
 sudo pacman -S dbeaver
+sudo pacman -S steam
 sudo pacman -S dpkg
 sudo pacman -S picom
 sudo pacman -S nautilus
@@ -39,3 +43,6 @@ sudo pacman -S zip unzip
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
 chsh -s $(which zsh)
+
+echo 'Installing Drivers'
+sudo pacman -S mesa lib32-mesa xf86-video-amdgpu vulkan-radeon lib32-vulkan-radeon
