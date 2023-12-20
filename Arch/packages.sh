@@ -1,6 +1,5 @@
 #!/usr/bin/bash
 
-#ICONS: Qogir-dark
 echo 'Installing yay'
 pacman -S --needed git base-devel
 git clone https://aur.archlinux.org/yay.git
