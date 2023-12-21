@@ -12,10 +12,6 @@ exec --no-startup-id ~/.screenlayout/single.sh
 
 #Load compositor
 exec --no-startup-id picom --config ~/.config/picom/picom.conf
-
-#Load wallpaper
-exec --no-startup-id nitrogen --restore
-
 	
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
 default_border pixel 1
@@ -163,6 +159,12 @@ set $ws6 6
 set $ws7 7
 set $ws8 8
 
+# assign workspace to monitor
+workspace $ws1 output HDMI-A-0
+workspace $ws2 output HDMI-A-0
+workspace $ws3 output HDMI-A-0
+workspace $ws4 output HDMI-A-0
+
 # switch to workspace
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
@@ -285,20 +287,8 @@ mode "resize" {
 bindsym $mod+9 exec --no-startup-id blurlock
 
 # Autostart applications
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id nitrogen --restore; sleep 1; picom -b
-exec --no-startup-id manjaro-hello
-exec --no-startup-id nm-applet
-exec --no-startup-id xfce4-power-manager
-exec --no-startup-id pamac-tray
-exec --no-startup-id clipit
-# exec --no-startup-id blueman-applet
-# exec_always --no-startup-id sbxkb
-exec --no-startup-id start_conky_maia
-# exec --no-startup-id start_conky_green
-exec --no-startup-id xautolock -time 10 -locker blurlock
-exec_always --no-startup-id ff-theme-util
-exec_always --no-startup-id fix_xcursor
+exec --no-startup-id i3-msg workspace $ws4; exec firefox
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
@@ -336,6 +326,7 @@ bar {
         i3bar_command i3bar --transparency
         status_command i3status
         position top
+        padding 0 2px
 
 ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
 #       tray_output primary
@@ -433,6 +424,6 @@ mode "$mode_gaps_outer" {
 ######################
 ### volume control ###
 ######################
-bindsym XF86AudioRaiseVolume exec /usr/bin/pulseaudio-ctl up
-bindsym XF86AudioLowerVolume exec /usr/bin/pulseaudio-ctl down
-bindsym XF86AudioMute exec /usr/bin/pulseaudio-ctl mute
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle 
