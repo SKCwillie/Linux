@@ -27,6 +27,7 @@ sudo pacman -S bitwarden
 sudo pacman -S pycharm-community-edition
 sudo pacman -S intellij-idea-community-edition
 sudo pacman -S dbeaver
+sudo pacman -S wine
 sudo pacman -S steam
 sudo pacman -S dpkg
 sudo pacman -S picom
