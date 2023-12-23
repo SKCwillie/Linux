@@ -14,6 +14,11 @@ mkdir /home/robert/Development/Java
 mkdir /home/robert/Pictures/Wallpapers
 mkdir -p ~/.config/alacritty/themes
 
+echo 'Install firewall'
+sudo pacman -Syu ufw
+sudo ufw enable
+sudo systemctl enable ufw
+
 echo 'Enabling multilib repos'
 sed "/\[multilib\]/,/Include/"'s/^#//' /etc/pacman.conf
 
