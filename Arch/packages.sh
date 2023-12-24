@@ -38,6 +38,7 @@ sudo pacman -S dpkg
 sudo pacman -S picom
 sudo pacman -S nautilus
 sudo pacman -S nitrogen
+sudo pacman -S ntfs-3g
 sudo pacman -S rofi
 sudo pacman -S libreoffice-still-en-za
 sudo pacman -S python-virtualenv
