@@ -40,6 +40,7 @@ sudo pacman -S nautilus
 sudo pacman -S nitrogen
 sudo pacman -S ntfs-3g
 sudo pacman -S rofi
+sudo pacman -S gnome-disk-utility
 sudo pacman -S libreoffice-still-en-za
 sudo pacman -S python-virtualenv
 sudo pacman -S spotify-launcher
