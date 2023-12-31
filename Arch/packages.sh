@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 echo 'Installing yay'
-pacman -S --needed git base-devel
+sudo pacman -S --needed git base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
@@ -26,7 +26,6 @@ echo 'Installing packages'
 yay -S postman-bin
 yay -S slack-desktop
 
-sudo pacman -S git
 sudo pacman -S alacritty
 sudo pacman -S discord
 sudo pacman -S bitwarden
