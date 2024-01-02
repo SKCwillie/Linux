@@ -1,31 +1,30 @@
-colors:
-  # Primary colors
-  primary:
-    background: '0x222127'
-    foreground: '0xeacec3'
+[colors.bright]
+black = "0x5b5858"
+blue = "0x4d8ec7"
+cyan = "0x85ebff"
+green = "0x39917e"
+magenta = "0xe561b0"
+red = "0xff6469"
+white = "0xffd1c8"
+yellow = "0xe0bc91"
 
-  # Normal colors
-  normal:
-    black: '0x243339'
-    red: '0xc44d4f'
-    green: '0x215449'
-    yellow: '0xe0cac3'
-    blue: '0x59a3b6'
-    magenta: '0xad4985'
-    cyan: '0x5799a6'
-    white: '0xdeb6ae'
+[colors.normal]
+black = "0x243339"
+blue = "0x59a3b6"
+cyan = "0x5799a6"
+green = "0x215449"
+magenta = "0xad4985"
+red = "0xc44d4f"
+white = "0xdeb6ae"
+yellow = "0xe0cac3"
 
-  # Bright colors
-  bright:
-    black: '0x5b5858'
-    red: '0xff6469'
-    green: '0x39917e'
-    yellow: '0xe0bc91'
-    blue: '0x4d8ec7'
-    magenta: '0xe561b0'
-    cyan: '0x85ebff'
-    white: '0xffd1c8'
+[colors.primary]
+background = "0x222127"
+foreground = "0xeacec3"
 
-# Window
-window:
-  opacity: 0.88
+[font.normal]
+family = "MesloLGS NF"
+
+[window]
+opacity = 0.88
+
