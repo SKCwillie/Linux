@@ -35,6 +35,8 @@ sudo pacman -S dpkg
 sudo pacman -S picom
 sudo pacman -S nautilus
 sudo pacman -S pavucontrol
+sudo pacman -S breeze-gtk
+sudo pacman -S lxappearance-gtk3
 sudo pacman -S xbindkeys
 sudo pacman -S nitrogen
 sudo pacman -S ntfs-3g
