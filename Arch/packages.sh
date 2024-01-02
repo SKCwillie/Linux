@@ -35,6 +35,7 @@ sudo pacman -S dpkg
 sudo pacman -S picom
 sudo pacman -S nautilus
 sudo pacman -S pavucontrol
+sudo pacman -S xbindkeys
 sudo pacman -S nitrogen
 sudo pacman -S ntfs-3g
 sudo pacman -S rofi
